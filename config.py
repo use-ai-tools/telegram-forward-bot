@@ -1,0 +1,18 @@
+# config.py
+
+TOKEN = "8254896558:AAFXusr7DXnZgmX4NNb9H7CW0c_Irb8B190"
+
+SOURCE_CHAT_IDS = [
+    -1003256788915,-1003657043535
+    # baaki source ids yahan
+]
+
+TARGET_CHAT_IDS = [
+    -1002043995670,-1002383710674
+]
+
+CHANNEL_RULES = {
+    SOURCE_CHAT_IDS[0]: ["promo","bonus"],
+    SOURCE_CHAT_IDS[1]: ["offer"],
+}
+DELAY = 2
