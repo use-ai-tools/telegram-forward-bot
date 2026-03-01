@@ -1,5 +1,7 @@
 # config.py
 
+BOT_ENABLED = True
+
 TOKEN = "8254896558:AAFXusr7DXnZgmX4NNb9H7CW0c_Irb8B190"
 
 SOURCE_CHAT_IDS = [
